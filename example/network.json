@@ -1,0 +1,208 @@
+{
+  "substations": [
+    {
+      "id": "s2",
+      "type": "secondary",
+      "latitude": 45.776353,
+      "longitude": 4.8119188 
+    },
+    {
+      "id": "s6",
+      "type": "secondary",
+      "latitude": 45.7759144,
+      "longitude": 4.8121519
+    },
+    {
+      "id": "p7",
+      "type": "primary",
+      "latitude": 45.774895,
+      "longitude": 4.8133599 
+    },
+    {
+      "id": "s4",
+      "type": "secondary",
+      "latitude": 45.7742806,
+      "longitude": 4.8144749
+    },
+    {
+      "id": "s3",
+      "type": "secondary",
+      "latitude": 45.7738359,
+      "longitude": 4.8139095
+    },
+    {
+      "id": "s5",
+      "type": "secondary",
+      "latitude": 45.7732054,
+      "longitude": 4.8142142 
+    },
+    {
+      "id": "s1",
+      "type": "secondary",
+      "latitude": 45.7733541,
+      "longitude": 4.8130607 
+    },
+    {
+      "id": "p8",
+      "type": "primary",
+      "latitude": 45.7740411,
+      "longitude": 4.8113783 
+    }
+  ],
+  "start_lines": [
+    {
+      "source": "s3",
+      "target": "s4",
+      "status": "closed",
+      "type": "removable",
+      "length": 6,
+      "path": []
+    },
+    {
+      "source": "s1",
+      "target": "s2",
+      "status": "open",
+      "type": "removable",
+      "length": 8,
+      "path": []
+    },
+    {
+      "source": "s4",
+      "target": "s5",
+      "status": "open",
+      "type": "removable",
+      "length": 9,
+      "path": []
+    },
+    {
+      "source": "s2",
+      "target": "s4",
+      "status": "open",
+      "type": "buildable",
+      "length": 1,
+      "path": []
+    },
+    {
+      "source": "s3",
+      "target": "s5",
+      "status": "open",
+      "type": "buildable",
+      "length": 10,
+      "path": []
+    },
+    {
+      "source": "s1",
+      "target": "s4",
+      "status": "open",
+      "type": "buildable",
+      "length": 3,
+      "path": []
+    },
+    {
+      "source": "s5",
+      "target": "s6",
+      "status": "closed",
+      "type": "",
+      "length": 7,
+      "path": []
+    },
+    {
+      "source": "p8",
+      "target": "s2",
+      "status": "closed",
+      "type": "",
+      "length": 2,
+      "path": []
+    },
+    {
+      "source": "p7",
+      "target": "s1",
+      "status": "closed",
+      "type": "",
+      "length": 5,
+      "path": []
+    },
+    {
+      "source": "p8",
+      "target": "s6",
+      "status": "closed",
+      "type": "",
+      "length": 7,
+      "path": []
+    },
+    {
+      "source": "p7",
+      "target": "s3",
+      "status": "closed",
+      "type": "",
+      "length": 6,
+      "path": []
+    }
+  ],
+  "target_lines": [
+    {
+      "source": "s5",
+      "target": "s6",
+      "status": "closed",
+      "type": "",
+      "length": 4,
+      "path": []
+    },
+    {
+      "source": "s3",
+      "target": "s5",
+      "status": "open",
+      "type": "",
+      "length": 3,
+      "path": []
+    },
+    {
+      "source": "p8",
+      "target": "s2",
+      "status": "closed",
+      "type": "",
+      "length": 4,
+      "path": []
+    },
+    {
+      "source": "s1",
+      "target": "s4",
+      "status": "closed",
+      "type": "",
+      "length": 6,
+      "path": []
+    },
+    {
+      "source": "p7",
+      "target": "s1",
+      "status": "closed",
+      "type": "",
+      "length": 10,
+      "path": []
+    },
+    {
+      "source": "p8",
+      "target": "s6",
+      "status": "closed",
+      "type": "",
+      "length": 10,
+      "path": []
+    },
+    {
+      "source": "s2",
+      "target": "s4",
+      "status": "open",
+      "type": "",
+      "length": 8,
+      "path": []
+    },
+    {
+      "source": "p7",
+      "target": "s3",
+      "status": "closed",
+      "type": "",
+      "length": 1,
+      "path": []
+    }
+  ]
+}
